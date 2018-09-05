@@ -6,12 +6,12 @@ import Home from "./components/home";
 class App extends React.Component{
   render(){
     return (
-      <div>
-      <h1>Chilango Life</h1>
-      </div>
-      // <BrowserRouter>
-      // <Route path="/" Component={Home}/>
-      // </BrowserRouter>
+      // <div>
+      // <h1>Chilango Life</h1>
+      // </div>
+      <BrowserRouter>
+      <Route path="/" Component={Home} />
+      </BrowserRouter>
     );
   }
 }
