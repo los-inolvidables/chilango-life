@@ -1,0 +1,12 @@
+body, html{
+  height:100%;
+}
+body{
+
+  background-image: url("./pic.jpg");
+  background-repeat: no-repeat;
+  background-position: rigth top;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
