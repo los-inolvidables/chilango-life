@@ -4,12 +4,20 @@ body, html{
 /* this is modifying the  homepage bakground */
 body{
 
-  background-image: url("./pic.jpg");
+  background-image: url("./mexico01.jpg");
   background-repeat: no-repeat;
   background-position: rigth top;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: 1300px 680px,cover ;
 
+
+}
+h1{
+  color: red;
+  text-align: center;
+
+  font-style: oblique;
+font-size:xx-large;
 }
 /* this is modifying the navigation bar */
 /* this is modifying the backgrown of nav bar */
