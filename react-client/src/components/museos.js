@@ -2,8 +2,8 @@ import React from 'react';
 
 
 const Museums = (props) => (
-
-
+<div>
+  <a href="#home">Home</a>
     <div className="subnav">
       <button className="subnavbtn">Museums <i className="fa fa-caret-down"></i></button>
       <div className="subnav-content">
@@ -14,7 +14,7 @@ const Museums = (props) => (
           <a href="#papalote">Papalote Museo del Niño</a>
       </div>
     </div>
-
+</div>
 
 );
 
