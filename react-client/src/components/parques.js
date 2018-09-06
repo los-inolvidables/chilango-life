@@ -1,7 +1,10 @@
 import React from 'react';
+import {BrowserRouter, Route} from 'react-router-dom';
 
 
-const Parks = (props) => (
+class Parks extends React.Component{
+  render(){
+    return(
 
      <div className="subnav">
         <button className="subnavbtn"> Parks<i className="fa fa-caret-down"></i></button>
@@ -13,7 +16,8 @@ const Parks = (props) => (
             <a href="#bicentenario">Parque Bicentenario</a>
           </div>
       </div>
-
-);
-
+    
+    );
+  }
+}
 export default Parks;
