@@ -4,7 +4,7 @@ import {BrowserRouter, Route} from "react-router-dom";
 import Museums from "./components/museos.js";
 import Close from "./components/close.js";
 import Parks from "./components/parques.js";
-
+import TypeWriteR from "./components/typeWriter.jsx"
 
 class App extends React.Component{
   render(){
@@ -18,6 +18,7 @@ class App extends React.Component{
           <Parks />
           <Close />
         </div>
+          <TypeWriteR />
       </div>
     );
   }

@@ -77,3 +77,8 @@ font-size:xx-large;
 .subnav:hover .subnav-content {
     display: block;
 }
+ /* this is for the typewriter component */
+ .Type{
+   color: White;
+   text-align: center;
+ }
