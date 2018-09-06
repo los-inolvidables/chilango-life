@@ -1,20 +1,23 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import {BrowserRouter, Route} from "react-router-dom";
-import Bar from "./components/bar";
-
-
+import Home from "./components/home";
+import typeWriter from './components/typeWriter.jsx';
 class App extends React.Component{
   render(){
     return (
       <div>
-      <div className="main">
-        <h1>Chilango Life</h1>
+      <div>
+      <h1>Chilango Life</h1>
       </div>
-      <Bar />
-      </div>
+      // <BrowserRouter>
+      // <Route path="/" Component={Home}/>
+      // </BrowserRouter>
+       <typeWriter/>
+       </div>
     );
   }
 }
 
 ReactDOM.render(<App />, document.getElementById("app"))
+
