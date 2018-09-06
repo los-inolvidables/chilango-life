@@ -1,14 +1,14 @@
 import React from 'react';
 import TypeWriter from 'react-typewriter';
-import $ from 'jquery';
+import $ from "jquery";
 
-class typeWriter extends React.Component {
+class TypeWriteR extends React.Component {
 
   render() {
     return (
       // Passing in text.
-      <div>
-      <TypeWriter typing={1}>testing TypeWriter!!!!!!!</TypeWriter>
+      <div className="Type">
+      <TypeWriter typing={1}>testing TypeWriter!!!!!!</TypeWriter>
       </div>
     );
   }
@@ -22,4 +22,5 @@ class typeWriter extends React.Component {
 
 
 
-export default typeWriter;
+
+export default TypeWriteR;
