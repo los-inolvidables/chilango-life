@@ -1,23 +1,26 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import {BrowserRouter, Route} from "react-router-dom";
-import Home from "./components/home";
-import typeWriter from './components/typeWriter.jsx';
+import Museums from "./components/museos.js";
+import Close from "./components/close.js";
+import Parks from "./components/parques.js";
+
+
 class App extends React.Component{
   render(){
     return (
       <div>
-      <div>
-      <h1>Chilango Life</h1>
+        <div className="main">
+          <h1>Chilango Life</h1>
+        </div>
+        <div className="navbar">
+          <Museums />
+          <Parks />
+          <Close />
+        </div>
       </div>
-      // <BrowserRouter>
-      // <Route path="/" Component={Home}/>
-      // </BrowserRouter>
-       <typeWriter/>
-       </div>
     );
   }
 }
 
 ReactDOM.render(<App />, document.getElementById("app"))
-
