@@ -1,26 +1,19 @@
 body, html{
-  height:17%;
+  height:100%;
 }
 body{
 
-  background-image: url("./mexico1.jpg");
+  background-image: url("./mexico01.jpg");
   background-repeat: no-repeat;
   background-position: rigth top;
   background-attachment: fixed;
-  background-size:cover ;
+  background-size: 1300px 680px,cover ;
 
 
 }
 h1{
   color: red;
   text-align: center;
-
-  font-style: oblique;
-font-size:xx-large;
-}
-h2{
-  color: red;
-  text-align: left;
 
   font-style: oblique;
 font-size:xx-large;
