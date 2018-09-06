@@ -1,6 +1,7 @@
 body, html{
   height:100%;
 }
+/* this is modifying the  homepage bakground */
 body{
 
   background-image: url("./pic.jpg");
@@ -9,4 +10,62 @@ body{
   background-attachment: fixed;
   background-size: cover;
 
+}
+/* this is modifying the navigation bar */
+/* this is modifying the backgrown of nav bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+/* this is modifying the letters of main menu buttons */
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.subnav {
+    float: left;
+    overflow: hidden;
+}
+/* this is modifying the main menu buttons or top bottons categories*/
+.subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+/* this is modifying the color of the hover from the main menu bottons */
+.navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: red;
+}
+/* this is modifying the options inside each top button category */
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: red;
+    width: 100%;
+    z-index: 1;
+}
+/* this is modifying the color of the hover from the options inside main buttons*/
+.subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+/* this is modifying color of the letters when hovering the inside options of main buttons*/
+.subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+}
+
+.subnav:hover .subnav-content {
+    display: block;
 }
