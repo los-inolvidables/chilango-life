@@ -5,6 +5,7 @@ import Museums from "./components/museos.js";
 import Close from "./components/close.js";
 import Parks from "./components/parques.js";
 import TypeWriteR from "./components/typeWriter.jsx"
+import Carousel from "./components/Carousel.js"
 
 class App extends React.Component{
   render(){
@@ -19,7 +20,9 @@ class App extends React.Component{
           <Close />
         </div>
           <TypeWriteR />
+          <Carousel/>
       </div>
+
     );
   }
 }
