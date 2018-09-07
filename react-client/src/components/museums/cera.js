@@ -2,7 +2,7 @@ import React from 'react';
 
 const Cera =()=>{
   return (
-    <div className= 'router';
+    <div className= 'router'>
     <p>Cera</p>
     </div>
   );
