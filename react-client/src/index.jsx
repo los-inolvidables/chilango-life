@@ -10,6 +10,13 @@ import Alameda from "./components/parques/alameda.js";
 import Desierto from "./components/parques/desierto.js";
 import Bicentenario from "./components/parques/bicentenario.js";
 
+import Bellas from "./components/museums/bellas.js";
+import Castillo from "./components/museums/castillo.js";
+import Cera from "./components/museums/cera.js";
+import Frida from "./components/museums/frida.js";
+import Papalote from "./components/museums/papalote.js";
+import Planetario from "./components/museums/planetario.js";
+
 
 class App extends React.Component{
   render(){
@@ -28,6 +35,14 @@ class App extends React.Component{
           <Route path="/alameda" component={Alameda}/>
           <Route path="/desierto" component={Desierto}/>
           <Route path="/bicentenario" component={Bicentenario}/>
+
+          <Route path="/castillo" component={Castillo}/>
+          <Route path="/cera" component={Cera}/>
+          <Route path="/fida" component={Frida}/>
+          <Route path="/planetario" component={Planetario}/>
+          <Route path="/papalote" component={Papalote}/>
+          <Route path="/bellas" component={Bellas}/>
+
 
           </Switch>
       </div>

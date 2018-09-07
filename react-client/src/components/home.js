@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 import Bar from "./bar.js";
 import TypeWriteR from "./typeWriter.jsx";
-
+import Carousel from "./Carousel.js";
 
 class Home extends React.Component{
   render(){
@@ -13,6 +13,7 @@ class Home extends React.Component{
           <h1>Chilango Life</h1>
         </div>
           <TypeWriteR />
+          <Carousel />
 
           </div>
 
