@@ -4,7 +4,7 @@ body, html{
 /* this is modifying the  homepage bakground */
 body{
 
-  background-image: url("./mexico01.jpg");
+  background-image: url("https://i.imgur.com/Ln43Vb3.jpg");
   background-repeat: no-repeat;
   background-position: rigth top;
   background-attachment: fixed;
@@ -13,23 +13,29 @@ body{
 
 }
 h1{
-  color: red;
-  text-align: center;
-
-  font-style: oblique;
-font-size:xx-large;
+color: blue;
+text-align: center;
+font-style: oblique;
+font-size:100px;
+    line-height: 0;
 }
+
 /* this is modifying the navigation bar */
 /* this is modifying the backgrown of nav bar */
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    /*background-color: hidden;*/
+
+    border line: hidden;
 }
 /* this is modifying the letters of main menu buttons */
 .navbar a {
     float: left;
-    font-size: 16px;
-    color: white;
+    font-size: 30px;
+
+
+  color: white;
+    font-style: oblique;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -40,7 +46,8 @@ font-size:xx-large;
 }
 /* this is modifying the main menu buttons or top bottons categories*/
 .subnav .subnavbtn {
-    font-size: 16px;
+    font-size: 30px;
+    font-style: oblique;
     border: none;
     outline: none;
     color: white;
@@ -51,27 +58,30 @@ font-size:xx-large;
 }
 /* this is modifying the color of the hover from the main menu bottons */
 .navbar a:hover, .subnav:hover .subnavbtn {
-    background-color: red;
+    background-color:#660033;
 }
 /* this is modifying the options inside each top button category */
 .subnav-content {
     display: none;
     position: absolute;
     left: 0;
-    background-color: red;
+    background-color: White;
     width: 100%;
     z-index: 1;
 }
 /* this is modifying the color of the hover from the options inside main buttons*/
 .subnav-content a {
     float: left;
-    color: white;
+    color: black;
+    font-size: 20px;
     text-decoration: none;
 }
 /* this is modifying color of the letters when hovering the inside options of main buttons*/
 .subnav-content a:hover {
-    background-color: #eee;
+    background-color: #b3e6ff;
     color: black;
+    font-style: oblique;
+    font-size: 20px;
 }
 
 .subnav:hover .subnav-content {
