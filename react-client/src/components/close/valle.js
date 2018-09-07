@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Piramides =()=>{
+const Valle =()=>{
   return(
     <div className= "route">
-    <p> Piramides Working
+    <p> Valle is Working
     </p>
     </div>
   );
 };
 
-export default Piramides;
+export default Valle;

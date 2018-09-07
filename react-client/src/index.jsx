@@ -11,6 +11,13 @@ import Desierto from "./components/parques/desierto.js";
 import Bicentenario from "./components/parques/bicentenario.js";
 
 
+import Piramides from "./components/close/piramides.js";
+import Tepozotlan from "./components/close/tepozotlan.js";
+import Valle from "./components/close/valle.js";
+import Marqueza from "./components/close/marqueza.js";
+import Tula from "./components/close/tula.js";
+
+
 class App extends React.Component{
   render(){
     return(
@@ -28,6 +35,13 @@ class App extends React.Component{
           <Route path="/alameda" component={Alameda}/>
           <Route path="/desierto" component={Desierto}/>
           <Route path="/bicentenario" component={Bicentenario}/>
+
+          <Route path="/piramides" component={Piramides}/>
+          <Route path="/tepozotlan" component={Tepozotlan}/>
+          <Route path="/valle" component={Valle}/>
+          <Route path="/marqueza" component={Marqueza}/>
+          <Route path="/tula" component={Tula}/>
+
 
           </Switch>
       </div>

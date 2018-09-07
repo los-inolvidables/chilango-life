@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Piramides =()=>{
+const Tepozotlan =()=>{
   return(
     <div className= "route">
-    <p> Piramides Working
+    <p> Tepozotlan Working
     </p>
     </div>
   );
 };
 
-export default Piramides;
+export default Tepozotlan;

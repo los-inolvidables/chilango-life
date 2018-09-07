@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Piramides =()=>{
+const Marqueza =()=>{
   return(
     <div className= "route">
-    <p> Piramides Working
+    <p> Marqueza is Working
     </p>
     </div>
   );
 };
 
-export default Piramides;
+export default Marqueza;

@@ -10,11 +10,11 @@ class Home extends React.Component{
     return (
       <div>
         <div className="main">
+
           <h1>Chilango Life</h1>
         </div>
 
           <TypeWriteR />
-          
           </div>
 
 
