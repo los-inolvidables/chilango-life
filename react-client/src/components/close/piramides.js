@@ -4,8 +4,10 @@ import { player } from "video-react";
 const Piramides =()=>{
   return(
     <div className= "route">
-    <p> Piramides Working
-    </p>
+    <iframe width="560" height="315"
+     src="https://www.youtube.com/embed/2JdcM-jCTks"
+     frameborder="0" allow="autoplay; encrypted-media"
+     allowfullscreen></iframe>
     </div>
   );
 };
