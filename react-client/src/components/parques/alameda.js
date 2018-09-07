@@ -1,2 +1,12 @@
 import React from 'react';
-import {BrowserRouter, Route} from 'react-router-dom';
+
+const Alameda =()=>{
+  return(
+    <div className= "route">
+    <p> Alameda Test
+    </p>
+    </div>
+  );
+};
+
+export default Alameda;
