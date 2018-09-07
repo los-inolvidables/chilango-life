@@ -2,7 +2,6 @@ import React , { Component } from "react";
 import ReactDOM from "react-dom";
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 import Home from "./components/home.js";
-import TypeWriteR from "./components/typeWriter.jsx"
 import Bar from "./components/bar.js";
 
 import Zocalo from "./components/parques/zocalo.js";
@@ -18,6 +17,7 @@ class App extends React.Component{
       <BrowserRouter>
       <div>
 
+
           <Bar />
 
 
@@ -32,6 +32,7 @@ class App extends React.Component{
           </Switch>
       </div>
       </BrowserRouter>
+
     );
   }
 }
