@@ -18,6 +18,13 @@ import Papalote from "./components/museums/papalote.js";
 import Planetario from "./components/museums/planetario.js";
 
 
+import Piramides from "./components/close/piramides.js";
+import Tepozotlan from "./components/close/tepozotlan.js";
+import Valle from "./components/close/valle.js";
+import Marqueza from "./components/close/marqueza.js";
+import Tula from "./components/close/tula.js";
+
+
 class App extends React.Component{
   render(){
     return(
@@ -36,12 +43,20 @@ class App extends React.Component{
           <Route path="/desierto" component={Desierto}/>
           <Route path="/bicentenario" component={Bicentenario}/>
 
+
           <Route path="/castillo" component={Castillo}/>
           <Route path="/cera" component={Cera}/>
           <Route path="/fida" component={Frida}/>
           <Route path="/planetario" component={Planetario}/>
           <Route path="/papalote" component={Papalote}/>
           <Route path="/bellas" component={Bellas}/>
+
+          <Route path="/piramides" component={Piramides}/>
+          <Route path="/tepozotlan" component={Tepozotlan}/>
+          <Route path="/valle" component={Valle}/>
+          <Route path="/marqueza" component={Marqueza}/>
+          <Route path="/tula" component={Tula}/>
+
 
 
           </Switch>

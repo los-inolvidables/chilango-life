@@ -1,4 +1,4 @@
-var mysql = requiered('mysql');
+var mysql = require('mysql');
 
 var connection = mysql.createConnection({
 

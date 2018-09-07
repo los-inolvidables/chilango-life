@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import $ from "jquery";
 import { Link } from "react-router-dom";
 import Coverflow from 'react-coverflow';
@@ -24,19 +24,19 @@ class Carousel extends React.Component {
           enableHeading={false}
           active={this.state.active}
         >
-        //set up for the buttons
+
           <div
             onClick={() => fn()}
             onKeyDown={() => fn()}
             role="menuitem"
             tabIndex="0"
           >
-//url for the Carousel image
+
           </div>
           <img src='https://i.imgur.com/Ok6XIk0.jpg'alt='valle de bravo'/>
           <img src='https://i.imgur.com/AEmUarJ.jpg'alt='zocalo'/>
           <img src='https://i.imgur.com/VdlHK2n.jpg'alt='valle'/>
-                    <img src='https://i.imgur.com/qijGsWm.jpg'alt='bellas artes'/>
+          <img src='https://i.imgur.com/qijGsWm.jpg'alt='bellas artes'/>
           <img src='https://i.imgur.com/jAZiQy5.png'alt='papalote'/>
 
 
