@@ -28,8 +28,8 @@ import {Link} from 'react-router-dom';
   <div className="subnav">
     <button className="subnavbtn">Close to the city<i className="fa fa-caret-down"></i></button>
     <div className="subnav-content">
-      <Link to="/teotihuacan">Piramides de teotihuacan</Link>
-      <Link to="/tepoztlan">Tepoztlan</Link>
+      <Link to="/piramides">Piramides de teotihuacan</Link>
+      <Link to="/tepozotlan">Tepozotlan</Link>
       <Link to="/valle">Valle de Bravo</Link>
       <Link to="/marqueza">Marqueza</Link>
       <Link to="/tula">Tula</Link>
