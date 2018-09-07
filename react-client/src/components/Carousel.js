@@ -35,9 +35,8 @@ class Carousel extends React.Component {
           </div>
           <img src='https://i.imgur.com/Ok6XIk0.jpg'alt='valle de bravo'/>
           <img src='https://i.imgur.com/AEmUarJ.jpg'alt='zocalo'/>
-          <img src='https://i.imgur.com/1wObCoB.jpg'alt='teotihuacan'/>
           <img src='https://i.imgur.com/VdlHK2n.jpg'alt='valle'/>
-          <img src='https://i.imgur.com/qijGsWm.jpg'alt='bellas artes'/>
+                    <img src='https://i.imgur.com/qijGsWm.jpg'alt='bellas artes'/>
           <img src='https://i.imgur.com/jAZiQy5.png'alt='papalote'/>
 
 
