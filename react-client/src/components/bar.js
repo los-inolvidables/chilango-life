@@ -1,10 +1,10 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
- const Bar = (props) => (
+ const Bar = () => (
    <div>
   <div className="navbar">
-  <a href="/">Home</a>
+  <Link to="/">Home</Link>
   <div className="subnav">
     <button className="subnavbtn">Museums <i className="fa fa-caret-down"></i></button>
     <div className="subnav-content">
@@ -13,6 +13,7 @@ import {Link} from 'react-router-dom';
       <Link to="/fida">Museo Frida Kahlo</Link>
       <Link to="/planetario">Planetario</Link>
       <Link to="/papalote">Papalote Museo del Niño</Link>
+      <Link to="/bellas">Palacio de Bellas Artes</Link>
     </div>
   </div>
   <div className="subnav">
@@ -35,7 +36,7 @@ import {Link} from 'react-router-dom';
       <Link to="/tula">Tula</Link>
     </div>
   </div>
-  <a href="/foro">Last minute events!</a>
+  <Link to="/foro">Last minute events!</Link>
 </div>
    </div>
  );
