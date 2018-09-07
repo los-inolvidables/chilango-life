@@ -1,25 +1,37 @@
-import React from "react";
+import React , { Component } from "react";
 import ReactDOM from "react-dom";
-import {BrowserRouter, Route} from "react-router-dom";
-import Museums from "./components/museos.js";
-import Close from "./components/close.js";
-import Parks from "./components/parques.js";
+import {BrowserRouter, Route, Switch} from "react-router-dom";
+import Home from "./components/home.js";
 import TypeWriteR from "./components/typeWriter.jsx"
+import Bar from "./components/bar.js";
+
+import Zocalo from "./components/parques/zocalo.js";
+import Bosque from "./components/parques/bosque.js";
+import Alameda from "./components/parques/alameda.js";
+import Desierto from "./components/parques/desierto.js";
+import Bicentenario from "./components/parques/bicentenario.js";
+
 
 class App extends React.Component{
   render(){
-    return (
+    return(
+      <BrowserRouter>
       <div>
-        <div className="main">
-          <h1>Chilango Life</h1>
-        </div>
-        <div className="navbar">
-          <Museums />
-          <Parks />
-          <Close />
-        </div>
-          <TypeWriteR />
+
+          <Bar />
+
+
+          <Switch>
+            <Route exact path="/" component={Home}/>
+          <Route path="/zocalo" component={Zocalo}/>
+          <Route path="/bosque" component={Bosque}/>
+          <Route path="/alameda" component={Alameda}/>
+          <Route path="/desierto" component={Desierto}/>
+          <Route path="/bicentenario" component={Bicentenario}/>
+
+          </Switch>
       </div>
+      </BrowserRouter>
     );
   }
 }
