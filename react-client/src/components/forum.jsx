@@ -1,5 +1,9 @@
 import React from 'react';
-import {BrowserRouter, Route, Switch} from "react-router-dom";
+import ReactDOM from 'react-dom';
+import AddPost from "./foro/AddPost.jsx";
+import PostList from "./foro/PostList.jsx";
+import CommentPost from './foro/CommentPost.jsx';
+import $ from "jquery";
 
 
 class Forum extends React.Component {
