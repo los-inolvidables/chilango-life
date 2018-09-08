@@ -36,7 +36,7 @@ import {Link} from 'react-router-dom';
       <Link to="/tula">Tula</Link>
     </div>
   </div>
-  <Link to="/foro">Last minute events!</Link>
+  <Link to="/foro2">Last minute events!</Link>
 </div>
    </div>
  );

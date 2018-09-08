@@ -23,6 +23,7 @@ import Tepozotlan from "./components/close/tepozotlan.js";
 import Valle from "./components/close/valle.js";
 import Marqueza from "./components/close/marqueza.js";
 import Tula from "./components/close/tula.js";
+import Forum from "./components/forum.jsx";
 
 
 class App extends React.Component{
@@ -56,6 +57,8 @@ class App extends React.Component{
           <Route path="/valle" component={Valle}/>
           <Route path="/marqueza" component={Marqueza}/>
           <Route path="/tula" component={Tula}/>
+          <Route  path="/foro2" component={Forum} />
+
 
 
 
