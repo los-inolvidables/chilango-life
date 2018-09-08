@@ -3,8 +3,8 @@ body, html{
 }
 /* this is modifying the  homepage bakground */
 body{
-  
-  background-image: url("https://i.imgur.com/Ln43Vb3.jpg");
+
+  background-image: url("https://i.imgur.com/DX2OrGo.jpg?1");
   background-repeat: no-repeat;
   background-position: rigth top;
   background-attachment: fixed;
@@ -16,7 +16,7 @@ h1{
 color: blue;
 text-align: center;
 font-style: oblique;
-font-size:100px;
+font-size:80px;
     line-height: 0;
 }
 

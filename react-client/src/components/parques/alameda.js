@@ -4,9 +4,9 @@ const Alameda =()=>{
   return(
 
       <div className="boxvideo">
-        <iframe className= "videos" width="560" height="315"
+        <center><iframe className= "videos" width="560" height="315"
         src="https://www.youtube.com/embed/x9tsEpDgzU8?autoplay=1&controls=0&&showinfo=0"
-        frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+        frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe></center>
 
       <div className= "route">
         <p> The Alameda Central park is a green garden with paved paths and decorative fountains and statues, and is frequently the center of civic events. The area used to be an Aztec marketplace. On 11 January 1592, Viceroy Luis de Velasco II ordered the creation of a public green space for the city's residents. The name comes from the Spanish word álamo, which means poplar tree, that were planted here. This park was part of the viceroy's plan to develop what was, at that time, the western   edge of the city. It has become a symbol of a traditional Mexican park and many other parks in the country take on the name "Alameda" as well.

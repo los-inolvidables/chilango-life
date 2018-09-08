@@ -6,9 +6,9 @@ const Desierto =()=>{
 
     <div>
       <div>
-        <iframe className= "videos" width="560" height="315"
+        <center><iframe className= "videos" width="560" height="315"
         src="https://www.youtube.com/embed/uVNLIfkKsH0?autoplay=1&controls=0&&showinfo=0"
-        frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+        frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe></center>
       </div>
       <div className= "route">
         <p> Desierto de los Leones (Desert of the Lions) National Park is located entirely within the limits of the Federal District; it stretches between Cuajimalpa and Álvaro Obregón boroughs.[1] It is located in the Sierra de las Cruces mountain range west of the city center with an area of 1,867 hectares,[2] representing fifteen percent of the entire Valley of Mexico.[3] The term Desierto (‘desert’) is used in this context in the archaic sense of “wild, sparsely populated area” rather than in reference to an arid environment. Leones (‘Lions’) refers not to the big cats but rather to the original landlord’s surname.
