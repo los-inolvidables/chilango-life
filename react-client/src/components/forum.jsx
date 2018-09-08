@@ -12,7 +12,7 @@ class Forum extends React.Component {
     this.state = {
       posts: []
     };
-    this.addCommentPost =this.addCommentPost.bing(this);
+    this.addCommentPost =this.addCommentPost.bind(this);
     this.getPost =this.getPost.bind(this);
   }
   addCommentPost(description){
@@ -27,7 +27,7 @@ class Forum extends React.Component {
      this.getPost();
    });
  }
-  getGPost (){
+  getPost (){
     $.ajax({
     url: '/forum',
     method: 'GET',
@@ -46,9 +46,10 @@ class Forum extends React.Component {
   render() {
     return (
       <div className ="posts">
-          <h1>Posts</h1>
-          <AddPost addPost={this.addCommentPost}/>
-          <PostList posts={this.state.posts}/>
+      <h2>Event Forum</h2>
+      <p>Are you aware of any events going on??<br/><br/>Post them here!!!!</p>
+       <AddPost addPost={this.addCommentPost}/>
+       <PostList posts={this.state.posts}/>
         </div>
       )
     }

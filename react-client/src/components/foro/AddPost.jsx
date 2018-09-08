@@ -24,11 +24,9 @@ class AddPost extends React.Component {
 
  render () {
    return(
-       <div>
-      Description:
+       <div>      
         <input onChange={this.updateDescription} value={this.state.description}></input>
-       <br />
-          <button onClick={this.add}>Add Grocery</button>
+       <button onClick={this.add}>submit</button>
 
      </div>);
  }

@@ -17,7 +17,7 @@ var selectAll = function(cb) {
  });
 };
 var insertOne = function(description, cb) {
- con.query('INSERT INTO comments (description) VALUES (?, ?)',
+ con.query('INSERT INTO comments (description) VALUES (?)',
    [description], (err, results, fields) => {
      if(err) {
        cb(err, null);
