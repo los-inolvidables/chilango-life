@@ -3,8 +3,8 @@ import React from 'react';
 const Tepozotlan =()=>{
   return(
     <div className= "route">
-    <iframe width="560" height="315"
-     src="https://www.youtube.com/embed/th-TPz6Qfa8?autoplay=1&controls=0&&showinfo=0"
+    <iframe className= "videos" width="560" height="315"
+     src="https://www.youtube.com/embed/QB1esB2_X90?autoplay=1&controls=0&&showinfo=0"
      frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
     <p> Tepoztlán (Nahuatl [tepostla'n]) is a town in the Mexican state of Morelos. It is located in the heart of the Tepoztlán Valley. The town serves as the seat of government for the municipality of the same name. The town had a population of 14,130 inhabitants, while the municipality reported 41,629 inhabitants in the 2010 national census.
     </p>

@@ -5,8 +5,8 @@ const Piramides =()=>{
   return(
     <div className= "route">
 
-      <iframe width="560" height="315"
-      src="https://www.youtube.com/embed/2JdcM-jCTks?autoplay=1&controls=0&&showinfo=0"
+      <iframe className= "videos" className= "videos" width="560" height="315"
+      src="https://www.youtube.com/embed/CDQ9Qi3itZc?autoplay=1&controls=0&&showinfo=0"
       frameBorder="0" allow="autoplay; encrypted-media"
       allowFullScreen></iframe>
      <p>Teotihuacan /teɪˌoʊtiːwəˈkɑːn/,[1] (in Spanish: Teotihuacán) (Spanish pronunciation: [teotiwa'kan] ,is an ancient Mesoamerican city located in a sub-valley of the Valley of Mexico, located in the State of Mexico 40 kilometres (25 mi) northeast of modern-day Mexico City, known today as the site of many of the most architecturally significant Mesoamerican pyramids built in the pre-Columbian Americas</p>
