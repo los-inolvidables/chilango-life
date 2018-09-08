@@ -3,10 +3,10 @@ import React from 'react';
 const Marqueza =()=>{
   return(
     <div className= "route">
-    <iframe className= "videos" width="560" height="315"
+    <center><iframe className= "videos" width="560" height="315"
      src="https://www.youtube.com/embed/NX7rrZ7iVgo?autoplay=1&controls=0&&showinfo=0"
      frameBorder="0" allow="autoplay; encrypted-media"
-     allowFullScreen></iframe>
+     allowFullScreen></iframe></center>
      <p>The park is situated west of Mexico City and east of Toluca, the capital of the State of Mexico. It is also west of the Desierto de los Leones National Park. Most of the park's forests are on the north side of the highway.
      It is within the municipalities of Ocoyoacac, Huixquilucan, and Lerma de Villada in the State of Mexico, and also in the adjacent Cuajimalpa borough of the Mexico, D.F. (Mexico City).</p>
      <p>The park has a Centro de Información Turistica visitor center, which is a trailhead for walking paths and forest trails. Horses are available for rent here. The Valley of Silence (Valle del Silencio) is another area in the park.[1]
