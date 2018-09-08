@@ -6,13 +6,13 @@ const Piramides =()=>{
     <div className= "route">
 
       <iframe width="560" height="315"
-      src="https://www.youtube.com/embed/2JdcM-jCTks"
+      src="https://www.youtube.com/embed/2JdcM-jCTks?autoplay=1&controls=0&&showinfo=0"
       frameBorder="0" allow="autoplay; encrypted-media"
       allowFullScreen></iframe>
-     <p>Teotihuacán o Teotihuacan (en náhuatl: Teōtihuācan, ‘‘lugar donde los hombres se convierten en dioses ’;1​ ‘lugar donde se hicieron los dioses ’; ‘ciudad de los dioses’’) 2​, o también Teo uacan (en náhuatl: 'Ciudad del sol')3​ es el nombre que se da a la que fue una de las mayores ciudades prehispánicas de Mesoamérica. El topónimo es de origen náhuatl y fue empleado por los mexicas para identificar a esta ciudad construida por una civilización anterior a ellos y que ya se encontraba en ruinas cuando los mexicas la vieron por primera vez. A la fecha se desconoce el nombre que le daban sus habitantes originales. Los restos de la ciudad se encuentran al noreste del valle de México, en los municipios de Teotihuacán y San Martín de las Pirámides (estado de México), aproximadamente a 78 kilómetros de distancia del centro de la Ciudad de México. La zona de monumentos arqueológicos fue declarada Patrimonio de la Humanidad por la Unesco en 1987.</p>
-     <p>Teotihuacán ha sido motivo de interés para las sociedades posteriores al declive de la cultura teotihuacana en Mesoamérica. Sus ruinas han sido exploradas desde la época prehispánica, entre otros, por los toltecas y los mexicas. El descubrimiento de objetos teotihuacanos en los yacimientos arqueológicos de Tula y el Templo Mayor de México-Tenochtitlan así lo confirma. En la mitología nahua posclásica, la ciudad aparece como el escenario de mitos fundamentales como la leyenda de los Soles de los mexicas.</p>
+     <p>Teotihuacan /teɪˌoʊtiːwəˈkɑːn/,[1] (in Spanish: Teotihuacán) (Spanish pronunciation: [teotiwa'kan] ,is an ancient Mesoamerican city located in a sub-valley of the Valley of Mexico, located in the State of Mexico 40 kilometres (25 mi) northeast of modern-day Mexico City, known today as the site of many of the most architecturally significant Mesoamerican pyramids built in the pre-Columbian Americas</p>
+     <p>Apart from the pyramids, Teotihuacan is also anthropologically significant for its complex, multi-family residential compounds, the Avenue of the Dead and its vibrant murals that have been exceptionally well-preserved. Additionally, Teotihuacan exported fine obsidian tools that are found throughout Mesoamerica.</p>
 
-     <p>Actualmente, los restos de Teotihuacán constituyen la zona de monumentos arqueológicos con mayor afluencia de turistas en México, por encima de Chichén Itzá, El Tajín y Monte Albán. Las excavaciones arqueológicas en Teotihuacán continúan hasta nuestros días, y han dado como resultado un paulatino incremento en la calidad y cantidad del conocimiento que se tiene sobre esta ciudad.</p>
+     <p>Teotihuacan began as a religious center in the Mexican Highlands around the first century AD. It became the largest and most populated center in the pre-Columbian Americas. Teotihuacan was even home to multi-floor apartment compounds built to accommodate this large population.[2] The term Teotihuacan (or Teotihuacano) is also used for the whole civilization and cultural complex associated with the site.</p>
     </div>
 
   );
