@@ -3,7 +3,7 @@ body, html{
 }
 /* this is modifying the  homepage bakground */
 body{
-
+  
   background-image: url("https://i.imgur.com/Ln43Vb3.jpg");
   background-repeat: no-repeat;
   background-position: rigth top;
@@ -92,7 +92,12 @@ font-size:100px;
    color: White;
    text-align: center;
  }
-
+/*this is to test letter color of the descriptions inside the components from the places*/
  .route{
    color: Yellow;
  }
+/*this is for the videos shadow*/
+.videos{
+   box-shadow: 0 15px 20px 0 rgba(0, 0, 5, 5), 0 15px 30px 0 rgba(0, 0, 5, 5);
+
+}
