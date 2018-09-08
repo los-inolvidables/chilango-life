@@ -1,12 +1,11 @@
-DROP DATABASE IF EXISTS mike;
+DROP DATABASE IF EXISTS chilango;
 
-CREATE DATABASE mike;
+CREATE DATABASE chilango;
 
-USE mike;
+USE chilango;
 
-CREATE TABLE forum (
+CREATE TABLE comments(
  id int NOT NULL AUTO_INCREMENT,
- comment text(600) NOT NULL,
- post text(600) NOT NULL,
+ description text(600) NOT NULL,
  PRIMARY KEY (ID)
 );
