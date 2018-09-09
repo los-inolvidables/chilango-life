@@ -16,9 +16,9 @@ var selectAll = function(cb) {
    }
  });
 };
-var insertOne = function(description, cb) {
- con.query('INSERT INTO comments (description) VALUES (?)',
-   [description], (err, results, fields) => {
+var insertOne = function(description,description2, cb) {
+ con.query('INSERT INTO comments (description, description2) VALUES (?, ?)',
+   [description, description2], (err, results, fields) => {
      if(err) {
        cb(err, null);
      } else {
