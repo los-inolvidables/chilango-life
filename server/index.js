@@ -24,11 +24,12 @@ app.get('/forum', function(req, res){
 app.post('/forum', function(req, res){
 
  let description = req.body.description;
+ let description2 = req.body.description2;
 
  if(!description) {
    res.sendStatus(400);
  } else {
-   database.insertOne(description,(err, results) => {
+   database.insertOne(description,description2,(err, results) => {
      if (err) {
        res.sendStatus(500);
      } else {

@@ -15,13 +15,14 @@ class Forum extends React.Component {
     this.addCommentPost =this.addCommentPost.bind(this);
     this.getPost =this.getPost.bind(this);
   }
-  addCommentPost(description){
+  addCommentPost(description, description2){
    $.ajax({
      method: "POST",
      url: "/forum",
      contentType: 'application/json',
      data: JSON.stringify({
-       description: description
+       description: description,
+       description2:description2
      })
    }).done(() => {
      this.getPost();
@@ -45,9 +46,9 @@ class Forum extends React.Component {
 
   render() {
     return (
-      <div className ="posts">
+      <div>
       <h2>Event Forum</h2>
-      <p>Are you aware of any events going on??<br/><br/>Post them here!!!!</p>
+      <p className ="posts">Are you aware of any events going on??<br/><br/>Post them here!!!!</p>
        <AddPost addPost={this.addCommentPost}/>
        <PostList posts={this.state.posts}/>
         </div>

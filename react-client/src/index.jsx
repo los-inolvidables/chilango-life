@@ -17,7 +17,6 @@ import Frida from "./components/museums/frida.js";
 import Papalote from "./components/museums/papalote.js";
 import Planetario from "./components/museums/planetario.js";
 
-
 import Piramides from "./components/close/piramides.js";
 import Tepozotlan from "./components/close/tepozotlan.js";
 import Valle from "./components/close/valle.js";
@@ -31,11 +30,7 @@ class App extends React.Component{
     return(
       <BrowserRouter>
       <div>
-
-
-          <Bar />
-
-
+        <Bar />
           <Switch>
             <Route exact path="/" component={Home}/>
           <Route path="/zocalo" component={Zocalo}/>
@@ -58,10 +53,6 @@ class App extends React.Component{
           <Route path="/marqueza" component={Marqueza}/>
           <Route path="/tula" component={Tula}/>
           <Route  path="/foro2" component={Forum} />
-
-
-
-
           </Switch>
       </div>
       </BrowserRouter>

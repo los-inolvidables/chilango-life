@@ -1,21 +1,13 @@
 body, html{
   height:100%;
 }
-
-
 /* this is modifying the  homepage bakground */
-
-
 body{
-
-
   background-image: url("https://i.imgur.com/9mqRHqM.jpg?1");
   background-repeat: no-repeat;
   background-position: rigth top;
   background-attachment: fixed;
   background-size: 1300px 680px,cover ;
-
-
 }
 h1{
 color: blue;
@@ -25,8 +17,6 @@ font-style: oblique;
 font-size:80px;
     line-height: 0;
 }
-
-
 
 /* this is modifying the navigation bar */
 /* this is modifying the backgrown of nav bar */
@@ -114,4 +104,52 @@ font-size:80px;
 .videos{
    box-shadow: 0 15px 20px 0 rgba(0, 0, 5, 5), 0 15px 30px 0 rgba(0, 0, 5, 5);
 
+}
+/*this is changing box in forum name of event */
+.box1{
+  border-radius: 15px;
+  outline: none;
+  font-size: 20px;
+  box-shadow: 0 9px #999;
+}
+
+/*this is changing box in forum description of event */
+.box2{
+  border-radius: 15px;
+  outline: none;
+  font-size: 30px;
+  box-shadow: 0 9px #999;
+}
+/*this is for submit button on forum description of event */
+.button2{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button2:hover {background-color: #3e8e41}
+
+.button2:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+}
+/*this is for the text on the forum comment box*/
+.textbox{
+  color:#B386DE;
+  font-size:20px;
+}
+.posts{
+  color:#99ffcc;
+  font-size:30px;
 }
