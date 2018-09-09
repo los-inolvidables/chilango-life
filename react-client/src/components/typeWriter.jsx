@@ -8,10 +8,10 @@ class TypeWriteR extends React.Component {
     return (
       // Passing in text.
       <div className="Type">
-        <TypeWriter typing={1}>That is definitely not enough info/context.
-  React version, component structure, etc. Please create Codepen/jsbin example that can reproduce the issue, otherwise I have no idea man_shrugging
-
-  I reckon I've seen this kind of error somewhere on my projects, but don't remember all the details. Probably was related with incorrect exports somewhere or mapper function within react tree
+        <TypeWriter typing={1}>We have created this page to show you some great
+        places of Mexico city and its surrounding areas. Mexico city is a great place to visit, and
+        it has many beautifull places. There is always something going on in the city, therefore
+        there are alot of things you can do.....We have listed a few.Check it out!!!!
         </TypeWriter>
     </div>
     );
