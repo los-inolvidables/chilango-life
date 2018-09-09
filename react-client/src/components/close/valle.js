@@ -2,11 +2,12 @@ import React from 'react';
 
 const Valle =()=>{
   return(
-    <div className= "route">
+    <div>
     <br/>
     <br/>
     <br/>
     <h2>Valle de bravo</h2>
+    <div className= "route">
     <center><iframe className= "videos" width="560" height="315"
     src="https://www.youtube.com/embed/dmjqG_WnTxQ?autoplay=1&controls=0&&showinfo=0"
     frameBorder="0" allow="autoplay; encrypted-media"
@@ -21,6 +22,7 @@ const Valle =()=>{
     </p>
     <p>In 1971 Valle de Bravo was known as typical city (ciudad típica) and magical town (pueblo mágico) in 2005. The town and the surrounding area are well known in Mexico as a tourist destination, mainly because it is only 2 hours away from Mexico City and for having hosted the world-famous events Circuito Avandaro (auto racing event) and Festival de rock y Ruedas (a massive rock music festival)
     </p>
+    </div>
     </div>
   );
 };

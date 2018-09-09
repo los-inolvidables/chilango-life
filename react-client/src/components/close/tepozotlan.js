@@ -2,11 +2,12 @@ import React from 'react';
 
 const Tepozotlan =()=>{
   return(
-    <div className= "route">
+     <div>
     <br/>
     <br/>
     <br/>
     <h2>Tepoztlán magical town</h2>
+    <div className= "route">
     <center><iframe className= "videos" width="560" height="315"
      src="https://www.youtube.com/embed/QB1esB2_X90?autoplay=1&controls=0&&showinfo=0"
      frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe></center>
@@ -19,6 +20,7 @@ const Tepozotlan =()=>{
     </p>
     <p>Tepoztlán was named a "Pueblo Mágico" in 2002 but its title was removed in 2009 for failure to maintain the requirements. In 2010 Tepoztlán addressed these problems and recovered the Pueblo Mágico title.
     </p>
+    </div>
     </div>
   );
 };

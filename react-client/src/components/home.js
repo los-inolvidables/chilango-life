@@ -10,6 +10,8 @@ class Home extends React.Component{
     return (
       <div>
         <div className="main">
+        <br/>
+        <br/>
 
           <h1>Chilango Life</h1>
         </div>

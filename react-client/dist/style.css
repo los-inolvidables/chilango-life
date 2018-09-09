@@ -17,13 +17,22 @@ body{
 
 
 }
+/*this is for the header title*/
 h1{
-color: blue;
+color:rgb(28, 207, 213);
 text-shadow: 4px 4px 6px  #000000;
 text-align: center;
 font-style: oblique;
 font-size:80px;
     line-height: 0;
+}
+/*this is for the header subtitle*/
+h2{
+  text-align: center;
+  color:rgb(77, 162, 162) ;
+  font-size: 40px;
+  font-style: oblique;
+  text-shadow: 4px 4px 6px  #000000;
 }
 
 
@@ -32,7 +41,10 @@ font-size:80px;
 /* this is modifying the backgrown of nav bar */
 .navbar {
     overflow: hidden;
-    /*background-color: hidden;*/
+    background-color:rgb(116, 99, 107);
+
+
+
 
     border line: hidden;
 }
@@ -48,6 +60,7 @@ font-size:80px;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+
 }
 .subnav {
     float: left;
@@ -68,14 +81,14 @@ font-size:80px;
 }
 /* this is modifying the color of the hover from the main menu bottons */
 .navbar a:hover, .subnav:hover .subnavbtn {
-    background-color:rgb(98, 222, 4);
+    background-color:#3e8e41;
 }
 /* this is modifying the options inside each top button category */
 .subnav-content {
     display: none;
     position: absolute;
     left: 0;
-    background-color:rgb(235, 132, 244) ;
+    background-color:#3e8e41 ;
     width: 100%;
     z-index: 1;
 }
@@ -88,7 +101,7 @@ font-size:80px;
 }
 /* this is modifying color of the letters when hovering the inside options of main buttons*/
 .subnav-content a:hover {
-    background-color:rgb(87, 251, 5);
+    background-color:rgb(158, 227, 158);
     color: black;
     font-style: oblique;
     font-size: 20px;
@@ -107,8 +120,10 @@ font-size:80px;
  }
 /*this is to test letter color of the descriptions inside the components from the places*/
  .route{
-   color:rgb(34, 255, 159) ;
-   text-shadow: 4px 4px 6px  #000000;
+   color:rgb(77, 162, 162) ;
+   text-shadow: 6px 6px 8px  #000000;
+   font-size: 25px;
+   font-style: oblique;
  }
 /*this is for the videos shadow*/
 .videos{
